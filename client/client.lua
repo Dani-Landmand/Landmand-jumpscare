@@ -38,11 +38,3 @@ end)
 	RegisterNetEvent('landmand:hellonear', function()
 		TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 7.0, "hello", 1.0)
 	end)
-
-	RegisterNetEvent('landmand-findme-it', function()
-		TriggerServerEvent("InteractSound_SV:PlayOnSource", "findme", 1.0)
-	end)
-
-	RegisterNetEvent('landmand-findmenear-it', function()
-		TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 7.0, "findme", 1.0)
-	end)
